@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- boot icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl -->
+    <!-- font icon -->
+    <!-- AoS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./asset/bootstrap/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg text-white p-0 m-0 position-relative">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"><img src="./asset/image/logo.png.webp" class="ms-5" alt=""></a>
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="MainTop  collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-normal active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-normal text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-normal text-white" href="#">Property</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-normal text-white" href="./asset/page/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-normal text-white" href="./asset/page/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-2 pe-5" role="search">
+                    <p class="mt-3 fw-semibold ms-5">Call Us: <span class="fw-semibold pb-2 text-white fs-6">+10 (78)
+                            356 3276</span>
+                    </p class="mt-2">
+                    <button
+                        class="btn btn_bg_S fw-semibold text-white ms-4 rounded-1  ps-4 pt-1 pe-4 pb-1 mt-2 mb-2 me-5"
+                        type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+    <nav class="navbar navbar-expand-lg nav-show-hiden text-white w-75 h-100 mx-auto">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler-iconss text-bg-dark text-white p-2 rounded-2 fw-bold border-0" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll"
+                aria-expanded="false" aria-label="Toggle navigation"> Menu<i class="fa-solid fa-bars fa-lg ms-1"
+                    style="color: #ffffff;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-disabled="true">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+    <div class="container-fluid text-center mt-3 mb-3">
+        <div class="row justify-content-center align-items-center position-relative">
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-3 position-relative">
+                <input type="text" class="form-control rounded-1 pt-2 pb-3"
+                    style="font-family:Arial, FontAwesome;color: red; font-size: 12px;"
+                    placeholder="&#xf002; Enter keyword.." id="formGroupExampleInput">
+            </div>
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0">
+                <select class="form-select rounded-1 p-3 pt-2 pe-3 ps-3 text-center">
+                    <option value="fa-amazon" select> Rent</option>
+                    <option value="1">Rent1</option>
+                    <option value="2">Rent2</option>
+                    <option value="3">Rent3</option>
+                    <option value="3">Rent4</option>
+                </select>
+            </div>
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <select class="form-select rounded-1 p-3 pt-2 pe-3 ps-3"
+                    aria-label="Default select example">
+                    <option selected>&#xf236; Bed</option>
+                    <option value="1">&#xf236; Bed1</option>
+                    <option value="2">&#xf236; Bed2</option>
+                    <option value="3">&#xf236; Bed3</option>
+                    <option value="3">&#xf236; Bed4</option>
+                </select></div>
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0"> <select
+                    class="form-select rounded-1 p-3 pt-2 pe-3 ps-3" aria-label="Default select example">
+                    <option selected>&#xf2cd; Bath</option>
+                    <option value="1">&#xf2cd; Bath1</option>
+                    <option value="2">&#xf2cd; Bath2</option>
+                    <option value="3">&#xf2cd; Bath3</option>
+                    <option value="3">&#xf2cd; Bath4</option>
+                </select> </div>
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <button
+                    class="btn fw-medium btn-color text-white p-2 pe-3 ps-3 rounded-1 btn_bg_S border-0"
+                    type="submit">search</button>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="position-relative">
+        <div class="card text-bg-dark img-bg-overlay rounded-0 border-0">
+            <img src="./asset/image/h1_hero1.jpg.webp" class="card-img" alt="...">
+            <div class="card-img-overlay col-lg-12 col-md-12 col-sm-12">
+                <div class="MainP1 position-absolute">
+                    <div class=" col-lg-8 col-md-8 col-sm-9">
+                        <p class="fs-6 fw-semibold">3 Bed - 2 Bath - 2200 Sq Ft</p>
+                        <h1 class="LightH fw-semibold">Light House NY</h1>
+                        <p class="fs-5 fw-light mt-3">Get started by choosing from one of our pre-built page templates
+                            to showcase your properties </p>
+                        <p class="LFont fw-medium mt-3">$ 3,272</p>
+                        <button type="button"
+                            class="btn btn-info pe-4 ps-4 p-2 text-white fs-5 mt-3 trans_btn border-0">View
+                            Property</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <figure class="text-center gap-row-3 mt-5">
+        <blockquote class="fs-2 fw-semibold">
+            <p>Display Latest & Featured Properties</p>
+        </blockquote>
+        <div class="text-center">
+            <figcaption class="fs-6 fw-light mt-3 pe-5 ps-5 mx-auto"> Get started by choosing from one of our pre-built
+                page templates to showcase your properties </figcaption>
+        </div>
+    </figure>
+    <div class="owl-first-one owl-carousel owl-theme">
+        <div class=" card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Apartment</h5>
+                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                    to showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Classic Home</h5>
+                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                    to showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="bedP fw-light mt-3"> <i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
+                        Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
+                        Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Office</h5>
+                <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates to
+                    showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="=fw-medium Size_F">Apartment</h5>
+                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                    to showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"> Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid BgNic text-center">
+        <div class="text-center pt-3">
+            <blockquote class="fs-2 fw-semibold text-white">
+                <p class="mt-5">How we help people?</p>
+            </blockquote>
+        </div>
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5 p-0">
+                <div class="card text-center len_H">
+                    <div class="card-body p-4">
+                        <i class="fa-solid fa-city fa-2xl mb-4 mt-4" style="color: #FFF;"></i>
+                        <h5 class="FonS fw-s">Sell home or office</h5>
+                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                            templates to showcase your properties </figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5 p-0">
+                <div class="card text-center len_H">
+                    <div class="card-body p-4">
+                        <i class="fa-solid fa-hotel fa-2xl mb-4 mt-4" style="color: #FFF;"></i>
+                        <h5 class="FonS fw-s">Rent home or office</h5>
+                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                            templates to showcase your properties </figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5 p-0">
+                <div class="card text-center len_H">
+                    <div class="card-body p-4">
+                        <i class="fa-solid fa-city fa-2xl mb-4 mt-4" style="color: #FFF;"></i>
+                        <h5 class="FonS fw-s">Find next</h5>
+                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                            templates to showcase your properties </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- second owl -->
+    <figure class="text-center gap-row-3 mt-5">
+        <blockquote class="fs-2 fw-semibold">
+            <p>Properties for Sale</p>
+        </blockquote>
+    </figure>
+    <div class="owl-first owl-carousel owl-theme mt-5">
+        <div class=" card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Apartment</h5>
+                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                    to showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Classic Home</h5>
+                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                    to showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="bedP fw-light mt-3"> <i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
+                        Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
+                        Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Office</h5>
+                <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates to
+                    showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
+            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                <h5 class="fw-medium Size_F">Apartment</h5>
+                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                    to showcase your properties </figcaption>
+                <div class="d-flex justify-content-between border-top mt-3">
+                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3"> Badroom </figcaption>
+                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- owl -->
+    <div class="container-fluid text-center BG_col">
+        <div class="row justify-content-center align-items-center Mar_fix position-relative p-5">
+            <div class="col-xl-4 col-lg-10">
+                <div class="text-start mb-3 Padd_L">
+                    <div class="card-body">
+                        <h1 class="fs-2 fw-semibold mt-3">Explore<br> by Property Type</h1>
+                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                            templates to showcase your properties </figcaption>
+                        <button type="button" class="btn btn-info pe-4 ps-4 p-2 text-white fs-6 mt-5 trans_btn">View All
+                            Property</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-10">
+                <div class="row classRow">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-2 p-0 tran_car">
+                        <div class="text-center hei_Fix">
+                            <div class="card-body">
+                                <img src="./asset/image/6676508.png" class="mt-4 mb-3" style='width:68px;color:red'
+                                    alt="">
+                                <h5 class="fw-medium fs-6">Home and Appartment</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-2  p-0 tran_car">
+                        <div class="text-center hei_Fix">
+                            <div class="card-body">
+                                <img src="./asset/image/download.png" class="mt-4 mb-3" style='width:72px;color:red'
+                                    alt="">
+                                <h5 class="fw-medium fs-6">Vila</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-2 p-0">
+                        <div class="text-center hei_Fix">
+                            <div class="card-body">
+                                <img src="./asset/image/6676508.png" class="mt-4 mb-3" style='width:68px;color:red'
+                                    alt="">
+                                <h5 class="fw-medium fs-6">Studio</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 mb-2 p-0">
+                        <div class="text-center hei_Fix">
+                            <div class="card-body">
+                                <img src="./asset/image/download.png" class="mt-4 mb-3" style='width:72px;color:red'
+                                    alt="">
+                                <h5 class="fw-medium fs-6">Building</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <figure class="text-center gap-row-3 mt-5">
+        <blockquote class="fs-2 fw-semibold">
+            <p>Our Agents</p>
+        </blockquote>
+        <div class="text-center">
+            <figcaption class="fs-6 fw-light mt-3 pe-5 ps-5 mx-auto"> Get started by choosing from one of our pre-built
+                page templates to showcase your properties </figcaption>
+        </div>
+    </figure>
+    <!-- owl third -->
+    <div class="owl-second owl-carousel owl-theme mt-5">
+        <div class=" card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
+            <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_" alt="...">
+            <div class="mb-5 Posi_S position-absolute">
+                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                    style="color: #052c76;font-size: 40px;"></i>
+                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                    style="color: #052c76;font-size: 40px;"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="fw-semibold fs-5">Jimmy Changa</h5>
+                <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+            </div>
+        </div>
+        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
+            <img src="asset/image/team2.jpg.webp" class="card-img-top img_hover_1" alt="...">
+            <div class="mb-5 Posi_S position-absolute">
+                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                    style="color: #052c76;font-size: 40px;"></i>
+                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                    style="color: #052c76;font-size: 40px;"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="fw-semibold fs-5">Buster Hyman</h5>
+                <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+            </div>
+        </div>
+        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
+            <img src="asset/image/team3.jpg.webp" class="card-img-top img_hover_2" alt="...">
+            <div class="mb-5 Posi_S position-absolute">
+                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                    style="color: #052c76;font-size: 40px;"></i>
+                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                    style="color: #052c76;font-size: 40px;"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="fw-semibold fs-5">Nick R. Broker</h5>
+                <figcaption class="fw-light"> Real Estate Agent </figcaption>
+            </div>
+        </div>
+        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
+            <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_3" alt="...">
+            <div class="mb-5 Posi_S position-absolute">
+                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                    style="color: #052c76;font-size: 40px;"></i>
+                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                    style="color: #052c76;font-size: 40px;"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="fw-semibold fs-5">Buster Hyman</h5>
+                <figcaption class="fw-light"> Real Estate Agent </figcaption>
+            </div>
+        </div>
+        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
+            <img src="asset/image/team4.jpg.webp" class="card-img-top img_hover_4" alt="...">
+            <div class="mb-5 Posi_S position-absolute">
+                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                    style="color: #052c76;font-size: 40px;"></i>
+                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                    style="color: #052c76;font-size: 40px;"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="fw-semibold fs-5">Jimmy Changa</h5>
+                <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 p-0 Subcribe">
+                <div class="col-lg-7 auto_M col-md-8 col-sm-10 p-3 text-white mt-5">
+                    <figure class="gap-row-3 mt-5 d-block justify-content-end">
+                        <blockquote class="fs-1 fw-semibold">
+                            <p>Subscribe Newsletter</p>
+                        </blockquote>
+                        <div class="">
+                            <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built
+                                page templates to showcase your properties </figcaption>
+                        </div>
+                    </figure>
+                    <div class="mb-3">
+                        <input type="text"
+                            class="form-control rounded-0 border-0 border-bottom bg-transparent text-white  input_C"
+                            id="formGroupExampleInput" placeholder="Example input placeholder">
+                    </div>
+                    <div class="mb-3">
+                        <button type="button"
+                            class="btn btn-info pe-3 ps-3 p-1 text-white fs-5 mt-3 border-0">Subcribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 p-0">
+                <img src="asset/image/subscribe-img.jpg.webp" class="card-img-top img_H" alt="...">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-evenly position-relative mt-5 p-4">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="./asset/image/logo2_footer.png.webp" style="width: 140px;" alt="">
+                    <figcaption class="fw-light mt-4 font_S"> Duis aute irure dolor inasfa reprehenderit in voluptate
+                        velit esse cillum </figcaption>
+                    <div class="mt-4">
+                        <i class="fa-brands fa-facebook fa-sm me-2" style="color: rgb(203, 197, 197);"></i>
+                        <i class="fa-brands fa-square-twitter rounded-circle fa-sm me-2"
+                            style="color: rgb(203, 197, 197);"></i>
+                        <i class="fa-brands fa-instagram fa-sm me-2" style="color: rgb(203, 197, 197);"></i>
+                        <i class="fa-brands fa-youtube fa-sm me-2" style="color: rgb(203, 197, 197);"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <blockquote class="nav_f fw-bold">
+                        <p>Navigation</p>
+                    </blockquote>
+                    <ul type="none" class="text-start p-0 mt-4">
+                        <li class="fw-light mt-3 p-0 font_S">Home</li>
+                        <li class="fw-light mt-3 p-0 font_S">About</li>
+                        <li class="fw-light mt-3 p-0 font_S">Blog</li>
+                        <li class="fw-light mt-3 p-0 font_S">Privacy</li>
+                        <li class="fw-light mt-3 p-0 font_S">Contact</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <blockquote class="nav_f fw-bold">
+                        <p>Services</p>
+                    </blockquote>
+                    <ul type="none" class="text-start p-0 mt-4">
+                        <li class="fw-light mt-3 p-0 font_S">Drone Mapping</li>
+                        <li class="fw-light mt-3 p-0 font_S">Real State</li>
+                        <li class="fw-light mt-3 p-0 font_S">Commercial</li>
+                        <li class="fw-light mt-3 p-0 font_S">Construction</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <blockquote class="nav_f fw-bold">
+                        <p>Support</p>
+                    </blockquote>
+                    <ul type="none" class="text-start p-0 mt-4">
+                        <li class="fw-light mt-3 p-0 font_S">Drone Mapping</li>
+                        <li class="fw-light mt-3 p-0 font_S">Real State</li>
+                        <li class="fw-light mt-3 p-0 font_S">Commercial</li>
+                        <li class="fw-light mt-3 p-0 font_S">Construction</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <blockquote class="nav_f fw-bold">
+                        <p>Contact Us</p>
+                    </blockquote>
+                    <ul type="none" class="text-start p-0 mt-4">
+                        <li class="fw-light mt-3 p-0 font_S">Drone Mapping</li>
+                        <li class="fw-light mt-3 p-0 font_S line_under">contactinfo@gmail.com</li>
+                        <li class="fw-bold mt-2 fs-5 line_under">10 (87) 738-3940</li>
+                    </ul>
+                </div>
+                <div class=""><button class="position-absolute bottom-0 end-0 BTN_TOP border-0 bg-transparent"><i
+                            class='fas fa-chevron-circle-up' style='font-size:44px;color:#00AEFF'></i></button></div>
+            </div>
+        </div>
+        <!-- owl -->
+        <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+        <!-- jguery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <!-- owl jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- owl  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Aos -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Aos -->
+        <script src="./asset/bootstrap/js/app.js"></script>
+</body>
+
+</html>
