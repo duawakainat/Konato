@@ -82,7 +82,7 @@ $('.owl-first-one').owlCarousel({
 $('.owl-first').owlCarousel({
     loop: true,
     margin: 10,
-    dotted: true,
+    nav: true,
     responsive: {
         300: {
             items: 1,

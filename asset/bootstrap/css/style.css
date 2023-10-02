@@ -19,11 +19,17 @@ body {
 }
 
 .nav-item>.nav-link,
+nav-link .active,
 .btn,
 form p {
     font-size: 18px;
     list-style-type: none;
     text-decoration: none;
+    color: white;
+}
+
+.nav-item>.nav-link:hover {
+    color: #00AEFF;
 }
 
 .nav-item>.nav-link::after {
@@ -32,6 +38,7 @@ form p {
     display: block;
     height: 2;
     width: 0;
+    color: #00AEFF;
     background-color: #00AEFF;
     transition: width 0.3s ease;
     /* position: absolute; */
@@ -43,6 +50,7 @@ form p {
     width: 4%;
     position: absolute;
     bottom: 0px;
+    color: #00AEFF;
 }
 
 form p {
@@ -153,10 +161,14 @@ div>#navbarSupportedContent {
 
 .Mar_auto {
     margin: 0 0;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    align-self: center;
+    /* align-self: center; */
+    justify-content: center;
+    width: 70%;
+}
+
+.with_col_owl {
+    width: 70%;
 }
 
 .bedP {
@@ -182,9 +194,10 @@ div>#navbarSupportedContent {
 }
 
 .len_H {
-    height: 43vh !important;
+    height: 40vh !important;
     background-color: #00AEFF !important;
     color: white !important;
+    border-radius: 0;
 }
 
 .FonS {
@@ -416,17 +429,28 @@ div>#navbarSupportedContent {
 }
 
 
-select {
+.form-select {
     font-family: 'FontAwesome', 'sans-serif';
     font-size: 2px;
 }
 
 .form-select,
 option {
-    padding: 14px 14px;
-    font-size: 13.5px;
+    padding: 12px 6px;
+    font-size: 10.5px;
     color: #7a6d6d;
 
+}
+
+.with_icon {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    background-image: url('');
+}
+
+select::-ms-expand {
+    display: none;
 }
 
 .nav-show-hiden {
@@ -499,4 +523,8 @@ option {
 
 .BTN_TOP {
     right: 10px;
+}
+
+.small_F {
+    font-size: 14px;
 }

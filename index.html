@@ -43,16 +43,23 @@
                         <a class="nav-link fw-normal active text-white" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link fw-normal text-white" href="#">About</a>
+                        <a class="nav-link fw-normal" href="#">About</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link fw-normal text-white" href="#">Property</a>
+                        <select class="with_icon rounded-1 nav-link fw-normal bg-transparent text-center"
+                            aria-label="Default select example">
+                            <option selected>Blog</option>
+                            <option value="1">Bed1</option>
+                            <option value="2">Bed2</option>
+                            <option value="3">Bed3</option>
+                            <option value="3">Bed4</option>
+                        </select>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link fw-normal text-white" href="./asset/page/blog.html">Blog</a>
+                        <a class="nav-link fw-normal" href="./asset/page/blog.html">Blog</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link fw-normal text-white" href="./asset/page/contact.html">Contact</a>
+                        <a class="nav-link fw-normal" href="./asset/page/contact.html">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex me-2 pe-5" role="search">
@@ -94,37 +101,38 @@
         </div>
     </nav>
     <!--  -->
-    <div class="container-fluid text-center mt-3 mb-3">
+    <div class="container text-center mt-3 mb-3">
         <div class="row justify-content-center align-items-center position-relative">
-            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-3 position-relative">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 position-relative">
                 <input type="text" class="form-control rounded-1 pt-2 pb-3"
                     style="font-family:Arial, FontAwesome;color: red; font-size: 12px;"
                     placeholder="&#xf002; Enter keyword.." id="formGroupExampleInput">
             </div>
             <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0">
-                <select class="form-select rounded-1 p-3 pt-2 pe-3 ps-3 text-center">
-                    <option value="fa-amazon" select> Rent</option>
-                    <option value="1">Rent1</option>
-                    <option value="2">Rent2</option>
-                    <option value="3">Rent3</option>
-                    <option value="3">Rent4</option>
+                <select class="form-select rounded-1 text-center p-m-0">
+                    <option value="fa-amazon" select> Rent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="1">Rent1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="2">Rent2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="3">Rent3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="3">Rent4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
                 </select>
             </div>
-            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <select class="form-select rounded-1 p-3 pt-2 pe-3 ps-3"
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <select
+                    class="form-select with_icon rounded-1 d-flex justify-content-between text-center mt-2"
                     aria-label="Default select example">
-                    <option selected>&#xf236; Bed</option>
-                    <option value="1">&#xf236; Bed1</option>
-                    <option value="2">&#xf236; Bed2</option>
-                    <option value="3">&#xf236; Bed3</option>
-                    <option value="3">&#xf236; Bed4</option>
+                    <option selected>&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed</option>
+                    <option value="1">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed1</option>
+                    <option value="2">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed2</option>
+                    <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed3</option>
+                    <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed4</option>
                 </select></div>
             <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0"> <select
-                    class="form-select rounded-1 p-3 pt-2 pe-3 ps-3" aria-label="Default select example">
-                    <option selected>&#xf2cd; Bath</option>
-                    <option value="1">&#xf2cd; Bath1</option>
-                    <option value="2">&#xf2cd; Bath2</option>
-                    <option value="3">&#xf2cd; Bath3</option>
-                    <option value="3">&#xf2cd; Bath4</option>
+                    class="form-select rounded-1 with_icon text-center" aria-label="Default select example">
+                    <option selected>&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath</option>
+                    <option value="1">&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath1</option>
+                    <option value="2">&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath2</option>
+                    <option value="3">&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath3</option>
+                    <option value="3">&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath4</option>
                 </select> </div>
             <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <button
                     class="btn fw-medium btn-color text-white p-2 pe-3 ps-3 rounded-1 btn_bg_S border-0"
@@ -162,69 +170,71 @@
                 page templates to showcase your properties </figcaption>
         </div>
     </figure>
-    <div class="owl-first-one owl-carousel owl-theme">
-        <div class=" card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Apartment</h5>
-                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                    to showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+    <div class="with_col_owl mx-auto">
+        <div class="owl-first-one owl-carousel owl-theme">
+            <div class=" card Mar_auto  w-100">
+                <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Apartment</h5>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Classic Home</h5>
-                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                    to showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="bedP fw-light mt-3"> <i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
-                        Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
-                        Badroom </figcaption>
+            <div class="card Mar_auto  w-100">
+                <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Classic Home</h5>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="bedP fw-light mt-3"> <i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i> Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i> Badroom </figcaption>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Office</h5>
-                <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates to
-                    showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+            <div class="card Mar_auto  w-100">
+                <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Office</h5>
+                    <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                        to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="=fw-medium Size_F">Apartment</h5>
-                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                    to showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"> Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+            <div class="card Mar_auto w-100">
+                <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="=fw-medium Size_F">Apartment</h5>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"> Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                    </div>
                 </div>
             </div>
         </div>
@@ -240,9 +250,9 @@
                 <div class="card text-center len_H">
                     <div class="card-body p-4">
                         <i class="fa-solid fa-city fa-2xl mb-4 mt-4" style="color: #FFF;"></i>
-                        <h5 class="FonS fw-s">Sell home or office</h5>
-                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
-                            templates to showcase your properties </figcaption>
+                        <h5 class="FonS fw-semibold mt-2">Sell home or office</h5>
+                        <figcaption class="small_F fw-light mt-3"> Get started by choosing from one of our pre-built
+                            page templates to showcase your properties </figcaption>
                     </div>
                 </div>
             </div>
@@ -250,9 +260,9 @@
                 <div class="card text-center len_H">
                     <div class="card-body p-4">
                         <i class="fa-solid fa-hotel fa-2xl mb-4 mt-4" style="color: #FFF;"></i>
-                        <h5 class="FonS fw-s">Rent home or office</h5>
-                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
-                            templates to showcase your properties </figcaption>
+                        <h5 class="FonS fw-semibold mt-2">Rent home or office</h5>
+                        <figcaption class="small_F fw-light mt-3"> Get started by choosing from one of our pre-built
+                            page templates to showcase your properties </figcaption>
                     </div>
                 </div>
             </div>
@@ -260,9 +270,9 @@
                 <div class="card text-center len_H">
                     <div class="card-body p-4">
                         <i class="fa-solid fa-city fa-2xl mb-4 mt-4" style="color: #FFF;"></i>
-                        <h5 class="FonS fw-s">Find next</h5>
-                        <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
-                            templates to showcase your properties </figcaption>
+                        <h5 class="FonS fw-semibold mt-2">Find next</h5>
+                        <figcaption class="small_F fw-light mt-3"> Get started by choosing from one of our pre-built
+                            page templates to showcase your properties </figcaption>
                     </div>
                 </div>
             </div>
@@ -274,69 +284,71 @@
             <p>Properties for Sale</p>
         </blockquote>
     </figure>
-    <div class="owl-first owl-carousel owl-theme mt-5">
-        <div class=" card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Apartment</h5>
-                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                    to showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+    <div class="with_col_owl mx-auto">
+        <div class="owl-first owl-carousel owl-theme">
+            <div class=" card w-100 Mar_auto p-m-0">
+                <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Apartment</h5>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="fw-light mt-3 bedP"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Classic Home</h5>
-                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                    to showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="bedP fw-light mt-3"> <i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
-                        Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg" style="color: #a5a4a4;"></i>
-                        Badroom </figcaption>
+            <div class="card w-100 Mar_auto p-m-0">
+                <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Classic Home</h5>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="bedP fw-light mt-3"> <i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i> Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i> Badroom </figcaption>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Office</h5>
-                <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates to
-                    showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
-                            style="color: #a5a4a4;"></i>Badroom </figcaption>
+            <div class="card w-100 Mar_auto p-m-0">
+                <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Office</h5>
+                    <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates
+                        to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
+                                style="color: #a5a4a4;"></i>Badroom </figcaption>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card Mar_auto col-lg-8 col-md-10 col-sm-9">
-            <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="fs-6 fw-light col_T">$ 6276</h5>
-                <h5 class="fw-medium Size_F">Apartment</h5>
-                <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                    to showcase your properties </figcaption>
-                <div class="d-flex justify-content-between border-top mt-3">
-                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3"> Badroom </figcaption>
-                    <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+            <div class="card w-100 Mar_auto p-m-0">
+                <img src="asset/image/items1.jpg.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="fs-6 fw-light col_T">$ 6276</h5>
+                    <h5 class="fw-medium Size_F">Apartment</h5>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
+                    <div class="d-flex justify-content-between border-top mt-3">
+                        <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3"> Badroom </figcaption>
+                        <figcaption class="bedP fw-light mt-3">Badroom </figcaption>
+                    </div>
                 </div>
             </div>
         </div>
@@ -407,75 +419,77 @@
         </div>
     </figure>
     <!-- owl third -->
-    <div class="owl-second owl-carousel owl-theme mt-5">
-        <div class=" card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
-            <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_" alt="...">
-            <div class="mb-5 Posi_S position-absolute">
-                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
-                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
-                    style="color: #052c76;font-size: 40px;"></i>
-                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
-                    style="color: #052c76;font-size: 40px;"></i>
+    <div class="with_col_owl mx-auto">
+        <div class="owl-second owl-carousel owl-theme mt-5">
+            <div class=" card Mar_auto text-center border-0 w-100 position-relative">
+                <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_" alt="...">
+                <div class="mb-5 Posi_S position-absolute">
+                    <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                    <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                        style="color: #052c76;font-size: 40px;"></i>
+                    <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                        style="color: #052c76;font-size: 40px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-semibold fs-5">Jimmy Changa</h5>
+                    <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+                </div>
             </div>
-            <div class="card-body">
-                <h5 class="fw-semibold fs-5">Jimmy Changa</h5>
-                <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+            <div class="card Mar_auto text-center border-0 w-100 position-relative">
+                <img src="asset/image/team2.jpg.webp" class="card-img-top img_hover_1" alt="...">
+                <div class="mb-5 Posi_S position-absolute">
+                    <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                    <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                        style="color: #052c76;font-size: 40px;"></i>
+                    <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                        style="color: #052c76;font-size: 40px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-semibold fs-5">Buster Hyman</h5>
+                    <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+                </div>
             </div>
-        </div>
-        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
-            <img src="asset/image/team2.jpg.webp" class="card-img-top img_hover_1" alt="...">
-            <div class="mb-5 Posi_S position-absolute">
-                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
-                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
-                    style="color: #052c76;font-size: 40px;"></i>
-                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
-                    style="color: #052c76;font-size: 40px;"></i>
+            <div class="card Mar_auto text-center border-0 w-100 position-relative">
+                <img src="asset/image/team3.jpg.webp" class="card-img-top img_hover_2" alt="...">
+                <div class="mb-5 Posi_S position-absolute">
+                    <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                    <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                        style="color: #052c76;font-size: 40px;"></i>
+                    <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                        style="color: #052c76;font-size: 40px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-semibold fs-5">Nick R. Broker</h5>
+                    <figcaption class="fw-light"> Real Estate Agent </figcaption>
+                </div>
             </div>
-            <div class="card-body">
-                <h5 class="fw-semibold fs-5">Buster Hyman</h5>
-                <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+            <div class="card Mar_auto text-center border-0 w-100 position-relative">
+                <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_3" alt="...">
+                <div class="mb-5 Posi_S position-absolute">
+                    <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                    <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                        style="color: #052c76;font-size: 40px;"></i>
+                    <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                        style="color: #052c76;font-size: 40px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-semibold fs-5">Buster Hyman</h5>
+                    <figcaption class="fw-light"> Real Estate Agent </figcaption>
+                </div>
             </div>
-        </div>
-        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
-            <img src="asset/image/team3.jpg.webp" class="card-img-top img_hover_2" alt="...">
-            <div class="mb-5 Posi_S position-absolute">
-                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
-                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
-                    style="color: #052c76;font-size: 40px;"></i>
-                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
-                    style="color: #052c76;font-size: 40px;"></i>
-            </div>
-            <div class="card-body">
-                <h5 class="fw-semibold fs-5">Nick R. Broker</h5>
-                <figcaption class="fw-light"> Real Estate Agent </figcaption>
-            </div>
-        </div>
-        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
-            <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_3" alt="...">
-            <div class="mb-5 Posi_S position-absolute">
-                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
-                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
-                    style="color: #052c76;font-size: 40px;"></i>
-                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
-                    style="color: #052c76;font-size: 40px;"></i>
-            </div>
-            <div class="card-body">
-                <h5 class="fw-semibold fs-5">Buster Hyman</h5>
-                <figcaption class="fw-light"> Real Estate Agent </figcaption>
-            </div>
-        </div>
-        <div class="card Mar_auto text-center border-0 col-lg-11 col-md-10 col-sm-9 position-relative">
-            <img src="asset/image/team4.jpg.webp" class="card-img-top img_hover_4" alt="...">
-            <div class="mb-5 Posi_S position-absolute">
-                <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
-                <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
-                    style="color: #052c76;font-size: 40px;"></i>
-                <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
-                    style="color: #052c76;font-size: 40px;"></i>
-            </div>
-            <div class="card-body">
-                <h5 class="fw-semibold fs-5">Jimmy Changa</h5>
-                <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+            <div class="card Mar_auto text-center border-0 w-100 position-relative">
+                <img src="asset/image/team4.jpg.webp" class="card-img-top img_hover_4" alt="...">
+                <div class="mb-5 Posi_S position-absolute">
+                    <i class="fa-brands fa-facebook img_hover1" style="color: #042763;font-size: 40px;"></i>
+                    <i class="fa-brands fa-square-twitter rounded-circle img_hover2"
+                        style="color: #052c76;font-size: 40px;"></i>
+                    <i class="fa-solid fa-globe rounded-circle img_hover3 fa-2xl"
+                        style="color: #052c76;font-size: 40px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-semibold fs-5">Jimmy Changa</h5>
+                    <figcaption class="fs-6 fw-light">Real Estate Agent </figcaption>
+                </div>
             </div>
         </div>
     </div>
