@@ -219,10 +219,13 @@ div>#navbarSupportedContent {
 }
 
 .len_H {
-    height: 40vh !important;
+    height: 32vh !important;
     background-color: #00AEFF !important;
     color: white !important;
     border-radius: 0;
+    /* box-shadow: 10px 0 #00AEFF; */
+    box-shadow: 10px 10px 5px #00aeff inset;
+    border: none;
 }
 
 .FonS {
