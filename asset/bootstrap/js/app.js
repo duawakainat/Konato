@@ -68,7 +68,7 @@ $(window).on('resize', function () {
 $('.owl-first-one').owlCarousel({
     // rtl: true,
     loop: true,
-    margin: 10,
+    margin: 20,
     nav: true,
     // navText: ["<div class='nav-button owl-prev'>></div>", "<div class='nav-button owl-next'><</div>"],
     navSpeed: 100,
@@ -91,7 +91,7 @@ $('.owl-first-one').owlCarousel({
 
 $('.owl-first').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 20,
     nav: true,
     responsive: {
         300: {
@@ -110,7 +110,7 @@ $('.owl-first').owlCarousel({
 })
 $('.owl-second').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 20,
     dotted: true,
     nav: true,
     responsive: {
