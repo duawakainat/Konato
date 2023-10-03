@@ -383,6 +383,7 @@ div>#navbarSupportedContent {
 }
 
 .wipo_S {
+    position: relative;
     left: 50px;
     margin-top: -60px;
     width: 85px;
