@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
 
-/* * {
-    border: 1px solid #00AEFF;
-} */
+* {
+    padding: 0;
+    margin: 0;
+}
 
 .navbar,
 .btn-color {
@@ -389,7 +390,7 @@ div>#navbarSupportedContent {
     background-color: #00AEFF;
     font-size: 30px;
     line-height: 22px;
-    z-index: 5;
+    z-index: 1;
 
     @media only screen and (min-width: 998px) and (max-width: 1280px) {
         left: 50px;

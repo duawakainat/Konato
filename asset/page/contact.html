@@ -33,15 +33,16 @@
                     <li class="nav-item ms-4">
                         <a class="nav-link fw-normal" href="#">About</a>
                     </li>
-                    <li class="nav-item ms-4">
-                        <select class="with_icon rounded-1 nav-link fw-normal bg-transparent text-center"
-                            aria-label="Default select example">
-                            <option selected>Blog</option>
-                            <option value="1">Bed1</option>
-                            <option value="2">Bed2</option>
-                            <option value="3">Bed3</option>
-                            <option value="3">Bed4</option>
-                        </select>
+                    <li class="nav-item ms-4 p-0 m-0">
+                        <div class="dropdown bg-transparent">
+                            <a class="btn btn-secondary dropdown-toggle bg-transparent border-0 with_icon" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="true"> Blog </a>
+                            <ul class="dropdown-menu border-0 mt-0 rounded-0">
+                                <li><a class="dropdown-item" href="./asset/page/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">ABlog Detail</a></li>
+                                <li><a class="dropdown-item" href="#">Elements</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item ms-4">
                         <a class="nav-link fw-normal" href="./blog.html">Blog</a>
@@ -87,13 +88,13 @@
     </nav>
     <!--  -->
     <div class="container-fluid text-center mt-3 mb-3">
-        <div class="row justify-content-center align-items-center position-relative">
+        <div class="d-flex justify-content-center align-items-center position-relative">
             <div class="col-xl-3 col-md-4 col-sm-3 position-relative">
                 <input type="text" class="form-control rounded-1 pt-2 pb-3"
                     style="font-family:Arial, FontAwesome;color: red; font-size: 12px;"
                     placeholder="&#xf002; Enter keyword.." id="formGroupExampleInput">
             </div>
-            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0">
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0 ms-2">
                 <select class="form-select rounded-1 p-3 pt-2 pe-3 ps-3 text-center">
                     <option value="fa-amazon" select> Rent</option>
                     <option value="1">Rent1</option>
@@ -102,15 +103,15 @@
                     <option value="3">Rent4</option>
                 </select>
             </div>
-            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <select class="form-select rounded-1 p-3 pt-2 pe-3 ps-3"
-                    aria-label="Default select example">
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 ms-2"> <select
+                    class="form-select rounded-1 p-3 pt-2 pe-3 ps-3" aria-label="Default select example">
                     <option selected>&#xf236; Bed</option>
                     <option value="1">&#xf236; Bed1</option>
                     <option value="2">&#xf236; Bed2</option>
                     <option value="3">&#xf236; Bed3</option>
                     <option value="3">&#xf236; Bed4</option>
                 </select></div>
-            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0"> <select
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0 ms-2"> <select
                     class="form-select rounded-1 p-3 pt-2 pe-3 ps-3" aria-label="Default select example">
                     <option selected>&#xf2cd; Bath</option>
                     <option value="1">&#xf2cd; Bath1</option>
