@@ -171,6 +171,31 @@ div>#navbarSupportedContent {
     width: 70%;
 }
 
+.owl-first-one,
+.owl-second,
+.owl-first,
+.owl-next {
+    position: absolute;
+    right: -35px;
+    font-size: 50px;
+    top: 40%;
+    color: #c9d6e1;
+    font-weight: bolder;
+    /* font: inherit; */
+}
+
+.owl-first-one,
+.owl-second,
+.owl-first,
+.owl-prev {
+    position: absolute;
+    left: -35px;
+    font-size: 50px;
+    top: 40%;
+    font-weight: bolder;
+    color: #c9d6e1;
+}
+
 .bedP {
     font-size: 13px;
 
@@ -430,16 +455,26 @@ div>#navbarSupportedContent {
 
 
 .form-select {
-    font-family: 'FontAwesome', 'sans-serif';
-    font-size: 2px;
+    font-family: 'FontAwesome', "Jost";
+    /* font-family: 'Jost', sans-serif; */
+    letter-spacing: 1px;
 }
 
 .form-select,
 option {
+    /* font-family: 'Jost', sans-serif; */
     padding: 12px 6px;
     font-size: 10.5px;
     color: #7a6d6d;
+    text-transform: capitalize
+}
 
+.font-duff {
+    font-family: 'Jost', sans-serif;
+    padding: 12px 6px;
+    font-size: 10.5px;
+    color: #7a6d6d;
+    text-transform: capitalize
 }
 
 .with_icon {
@@ -528,3 +563,12 @@ select::-ms-expand {
 .small_F {
     font-size: 14px;
 }
+
+
+/* .with_s>.opt_S {
+    width: 200px;
+    border: none;
+    height: 22px;
+    font-size: 15px;
+    text-align: start;
+} */

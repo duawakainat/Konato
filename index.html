@@ -21,11 +21,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <link rel="stylesheet" type="text/css"
+        href="https://bootswatch.com/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <!-- icon -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css.map">
     <link rel="stylesheet" href="./asset/bootstrap/css/style.css">
+    <!--  -->
 </head>
 
 <body>
@@ -45,15 +50,16 @@
                     <li class="nav-item ms-4">
                         <a class="nav-link fw-normal" href="#">About</a>
                     </li>
-                    <li class="nav-item ms-4">
-                        <select class="with_icon rounded-1 nav-link fw-normal bg-transparent text-center"
-                            aria-label="Default select example">
-                            <option selected>Blog</option>
-                            <option value="1">Bed1</option>
-                            <option value="2">Bed2</option>
-                            <option value="3">Bed3</option>
-                            <option value="3">Bed4</option>
-                        </select>
+                    <li class="nav-item ms-4 p-0 m-0">
+                        <div class="dropdown bg-transparent">
+                            <a class="btn btn-secondary dropdown-toggle bg-transparent border-0 with_icon" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="true"> Blog </a>
+                            <ul class="dropdown-menu border-0 mt-0 rounded-0">
+                                <li><a class="dropdown-item" href="./asset/page/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">ABlog Detail</a></li>
+                                <li><a class="dropdown-item" href="#">Elements</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item ms-4">
                         <a class="nav-link fw-normal" href="./asset/page/blog.html">Blog</a>
@@ -120,11 +126,12 @@
             <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <select
                     class="form-select with_icon rounded-1 d-flex justify-content-between text-center mt-2"
                     aria-label="Default select example">
-                    <option selected>&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed</option>
-                    <option value="1">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed1</option>
-                    <option value="2">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed2</option>
-                    <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed3</option>
-                    <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp; Bed4</option>
+                    <option selected>&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed</span> </option>
+                    <option value="1">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed1</span> </option>
+                    </option>
+                    <option value="2">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed2</span> </option>
+                    <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed2</span> </option>
+                    <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed4</span> </option>
                 </select></div>
             <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0"> <select
                     class="form-select rounded-1 with_icon text-center" aria-label="Default select example">
@@ -171,7 +178,7 @@
         </div>
     </figure>
     <div class="with_col_owl mx-auto">
-        <div class="owl-first-one owl-carousel owl-theme">
+        <div class="owl-first-one owl-carousel owl-theme position-relative text-start">
             <div class=" card Mar_auto  w-100">
                 <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -211,8 +218,8 @@
                 <div class="card-body">
                     <h5 class="fs-6 fw-light col_T">$ 6276</h5>
                     <h5 class="fw-medium Size_F">Office</h5>
-                    <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                        to showcase your properties </figcaption>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
                     <div class="d-flex justify-content-between border-top mt-3">
                         <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
                                 style="color: #a5a4a4;"></i>Badroom </figcaption>
@@ -285,7 +292,7 @@
         </blockquote>
     </figure>
     <div class="with_col_owl mx-auto">
-        <div class="owl-first owl-carousel owl-theme">
+        <div class="owl-first owl-carousel owl-theme position-relative">
             <div class=" card w-100 Mar_auto p-m-0">
                 <img src="asset/image/items2.jpg.webp" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -325,8 +332,8 @@
                 <div class="card-body">
                     <h5 class="fs-6 fw-light col_T">$ 6276</h5>
                     <h5 class="fw-medium Size_F">Office</h5>
-                    <figcaption class="fw-light mt-3"> Get started by choosing from one of our pre-built page templates
-                        to showcase your properties </figcaption>
+                    <figcaption class="fs-6 fw-light mt-3"> Get started by choosing from one of our pre-built page
+                        templates to showcase your properties </figcaption>
                     <div class="d-flex justify-content-between border-top mt-3">
                         <figcaption class="bedP fw-light mt-3"><i class="fa-solid fa-bed fa-lg"
                                 style="color: #a5a4a4;"></i>Badroom </figcaption>
@@ -420,7 +427,7 @@
     </figure>
     <!-- owl third -->
     <div class="with_col_owl mx-auto">
-        <div class="owl-second owl-carousel owl-theme mt-5">
+        <div class="owl-second owl-carousel owl-theme mt-5 position-relative">
             <div class=" card Mar_auto text-center border-0 w-100 position-relative">
                 <img src="asset/image/team1.jpg.webp" class="card-img-top img_hover_" alt="...">
                 <div class="mb-5 Posi_S position-absolute">
@@ -460,7 +467,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="fw-semibold fs-5">Nick R. Broker</h5>
-                    <figcaption class="fw-light"> Real Estate Agent </figcaption>
+                    <figcaption class="fs-6 fw-light"> Real Estate Agent </figcaption>
                 </div>
             </div>
             <div class="card Mar_auto text-center border-0 w-100 position-relative">
@@ -474,7 +481,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="fw-semibold fs-5">Buster Hyman</h5>
-                    <figcaption class="fw-light"> Real Estate Agent </figcaption>
+                    <figcaption class="fs-6 fw-light"> Real Estate Agent </figcaption>
                 </div>
             </div>
             <div class="card Mar_auto text-center border-0 w-100 position-relative">
@@ -584,7 +591,6 @@
             </div>
         </div>
         <!-- owl -->
-        <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
         <!-- jguery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <!-- owl jquery -->
@@ -598,6 +604,10 @@
         <!-- Aos -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- Aos -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
         <script src="./asset/bootstrap/js/app.js"></script>
 </body>
 

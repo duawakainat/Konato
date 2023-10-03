@@ -13,6 +13,12 @@ $(".BTN_TOP").click(function () {
     }, "slow");
     return false;
 })
+$(".dropdown").hover(function () {
+    $('.dropdown-menu').css("display", "block")
+})
+$(".dropdown").mouseleave(function () {
+    $('.dropdown-menu').css("display", "none")
+})
 
 
 // $(window).on('resize', function () {
@@ -60,9 +66,13 @@ $(window).on('resize', function () {
 
 
 $('.owl-first-one').owlCarousel({
+    // rtl: true,
     loop: true,
     margin: 10,
-    dotted: true,
+    nav: true,
+    // navText: ["<div class='nav-button owl-prev'>></div>", "<div class='nav-button owl-next'><</div>"],
+    navSpeed: 100,
+    autoplay: true,
     responsive: {
         300: {
             items: 1,
@@ -102,6 +112,7 @@ $('.owl-second').owlCarousel({
     loop: true,
     margin: 10,
     dotted: true,
+    nav: true,
     responsive: {
         300: {
             items: 1,
