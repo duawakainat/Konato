@@ -372,6 +372,12 @@ div>#navbarSupportedContent {
     } */
 }
 
+.Font_8 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 400 !important;
+}
+
 .img_H {
     @media only screen and (min-width: 998px) and (max-width: 1600px) {
         height: 430px;
