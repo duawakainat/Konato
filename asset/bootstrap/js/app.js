@@ -2,10 +2,13 @@
 $(window).resize(function () {
     if ($(window).width() <= 998) {
         $('.navbar-toggler').hide();
-
     }
 });
-
+$(window).resize(function () {
+    if ($(window).width() <= 998) {
+        $('.navbar-nav').hide();
+    }
+});
 
 $(".BTN_TOP").click(function () {
     $("html, body").animate({
@@ -20,20 +23,6 @@ $(".dropdown").mouseleave(function () {
     $('.dropdown-menu').css("display", "none")
 })
 
-
-// $(window).on('resize', function () {
-//     if ($(window).width() <= 998) {
-//         console.log('yes');
-//         let AddValue = $(".MainTop").html();
-//         // AddValue.css('color', 'black');
-//         $(".addNavMenu").html(AddValue);
-//         $(".addNavMenu").css("display", "block")
-//         $('.nav-link').css("list-style-type", "none")
-//         $('.toggle').toggle()
-//     } else {
-//         $(".addNavMenu").html('');
-//     }
-// });
 
 
 $(".nav-show-hiden").css("display", "none");
@@ -68,7 +57,7 @@ $(window).on('resize', function () {
 $('.owl-first-one').owlCarousel({
     // rtl: true,
     loop: true,
-    margin: 20,
+    margin: 17,
     nav: true,
     // navText: ["<div class='nav-button owl-prev'>></div>", "<div class='nav-button owl-next'><</div>"],
     navSpeed: 100,
@@ -91,7 +80,7 @@ $('.owl-first-one').owlCarousel({
 
 $('.owl-first').owlCarousel({
     loop: true,
-    margin: 20,
+    margin: 17,
     nav: true,
     responsive: {
         300: {
@@ -110,7 +99,7 @@ $('.owl-first').owlCarousel({
 })
 $('.owl-second').owlCarousel({
     loop: true,
-    margin: 20,
+    margin: 17,
     dotted: true,
     nav: true,
     responsive: {
