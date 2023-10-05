@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* color: #1A1A1A; */
+    /* border: 1px solid #00a0eb; */
 }
 
 .navbar,
@@ -101,16 +101,9 @@ div>#navbarSupportedContent {
     font-weight: 500 !important;
     margin-bottom: 9px;
 
-    @media only screen and (min-width: 998px) and (max-width: 1199px) {
-        font-size: 48px;
-    }
 
-    @media only screen and (min-width: 778px) and (max-width: 998px) {
-        font-size: 45px;
-    }
-
-    @media only screen and (min-width: 300px) and (max-width: 778px) {
-        font-size: 35px;
+    @media only screen and (min-width: 300px) and (max-width: 578px) {
+        font-size: 38px;
     }
 }
 
@@ -154,19 +147,24 @@ div>#navbarSupportedContent {
     left: 21%;
     top: 24%;
 
+    @media only screen and (min-width: 998px) and (max-width: 1260px) {
+        left: 14%;
+        top: 15%;
+    }
+
     @media only screen and (min-width: 778px) and (max-width: 998px) {
-        left: 20%;
-        top: 30%;
+        left: 10%;
+        top: 10%;
     }
 
     @media only screen and (min-width: 578px) and (max-width: 778px) {
         left: 12%;
-        top: 20%;
+        top: 12%;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 578px) {
         left: 2%;
-        top: 20%;
+        top: 10%;
     }
 }
 
@@ -187,6 +185,30 @@ div>#navbarSupportedContent {
     padding: 0 12px 90px 12px;
     margin-right: auto;
     margin-left: auto;
+
+    @media only screen and (min-width: 998px) and (max-width: 1260px) {
+        width: 82%;
+        padding: 0 12px 90px 12px;
+    }
+
+    @media only screen and (min-width: 778px) and (max-width: 998px) {
+        width: 69%;
+        padding: 0 6px 90px 6px;
+    }
+
+    @media only screen and (min-width: 578px) and (max-width: 778px) {
+        width: 75%;
+        padding: 0 0px 90px 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 578px) {
+        width: 85%;
+        padding: 0 0px 90px 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 .owl-first-one,
@@ -199,7 +221,11 @@ div>#navbarSupportedContent {
     top: 40%;
     color: #c9d6e1;
     font-weight: bolder;
+
     /* font: inherit; */
+    @media only screen and (min-width: 300px) and (max-width: 778px) {
+        display: none;
+    }
 }
 
 .owl-first-one,
@@ -213,6 +239,9 @@ div>#navbarSupportedContent {
     font-weight: bolder;
     color: #c9d6e1;
 
+    @media only screen and (min-width: 300px) and (max-width: 778px) {
+        display: none;
+    }
 }
 
 .padd_Iner {
@@ -232,14 +261,16 @@ div>#navbarSupportedContent {
 
 .BgNic {
     background-image: url(../../image/section-bg1.jpg.webp);
-    height: 70vh;
+    /* height: 70vh; */
+    background-size: cover;
+
 
     @media only screen and (min-width: 578px) and (max-width: 798px) {
-        height: 110vh !important;
+        /* height: 110vh !important; */
     }
 
     @media only screen and (min-width: 300px) and (max-width: 578px) {
-        height: 150vh !important;
+        /* height: 150vh !important; */
     }
 }
 
@@ -251,12 +282,21 @@ div>#navbarSupportedContent {
     box-shadow: 0px 10px 16px rgba(84, 0, 0, 0.06);
     padding: 50px 30px 39px 30px;
     border: none;
+    margin-bottom: 10px;
 }
 
 .FonS {
     font-size: 22px;
     font-weight: 500 !important;
     margin-bottom: 14px;
+
+    @media only screen and (min-width: 578px) and (max-width: 1260px) {
+        font-size: 18px;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 578px) {
+        font-size: 21px;
+    }
 }
 
 .mar_B_L {
@@ -355,22 +395,22 @@ div>#navbarSupportedContent {
 
 .auto_M {
     padding: 50px 100px 50px 300px;
-    /* 
+
     @media only screen and (min-width:998px) and (max-width: 1360px) {
-        left: 100px;
+        padding: 50px 80px 50px 200px;
     }
 
     @media only screen and (min-width:778px) and (max-width: 998px) {
-        left: 50px;
+        padding: 50px 60px 50px 150px;
     }
 
     @media only screen and (min-width:558px) and (max-width: 778px) {
-        left: 40px;
+        padding: 20px 100px 50px 80px;
     }
 
     @media only screen and (min-width:300px) and (max-width: 578px) {
-        left: 0px;
-    } */
+        padding: 00px 100px 50px 0px;
+    }
 }
 
 .Font_8 {
@@ -606,6 +646,25 @@ div .Fac_S {
     margin-bottom: 12px;
     font-weight: 500 !important;
     padding: 0 12px;
+
+    @media only screen and (min-width:998px) and (max-width: 1200px) {
+        font-size: 30px !important;
+        padding: 0 0px;
+    }
+
+    @media only screen and (min-width:778px) and (max-width: 998px) {
+        font-size: 30px !important;
+    }
+
+    @media only screen and (min-width:558px) and (max-width: 778px) {
+        font-size: 30px !important;
+        padding: 0 0px;
+    }
+
+    @media only screen and (min-width:300px) and (max-width: 578px) {
+        font-size: 24px !important;
+        padding: 0 0px !important;
+    }
 }
 
 .small_para {
