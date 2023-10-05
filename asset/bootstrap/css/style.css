@@ -621,6 +621,15 @@ div .Fac_S {
     padding: 30px 20px 25px 20px;
 }
 
+.small_Get {
+    font-size: 16px;
+    font-weight: 300 !important;
+    margin-bottom: 15px;
+    line-height: 28px;
+    padding: 0 0px !important;
+    line-height: 1.5;
+}
+
 .PADD_T {
     padding-top: 100px;
 }
