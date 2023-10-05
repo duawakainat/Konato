@@ -173,14 +173,15 @@ div>#navbarSupportedContent {
 }
 
 .Mar_auto {
-    margin: 0 0;
+    /* margin: 0 0;
     display: flex;
-    /* align-self: center; */
     justify-content: center;
     width: 70%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
+
+/* align-self: center; */
 
 .hidden_form {
     @media only screen and (min-width: 300px) and (max-width: 998px) {
@@ -233,6 +234,7 @@ div>#navbarSupportedContent {
     /* font: inherit; */
     @media only screen and (min-width: 300px) and (max-width: 778px) {
         display: none;
+        right: 0px;
     }
 }
 
@@ -249,6 +251,7 @@ div>#navbarSupportedContent {
 
     @media only screen and (min-width: 300px) and (max-width: 778px) {
         display: none;
+        left: 0px;
     }
 }
 
@@ -611,6 +614,7 @@ select::-ms-expand {
 
 .img_Hei {
     height: 200px;
+    width: 80%;
 }
 
 .padd-T2 {
