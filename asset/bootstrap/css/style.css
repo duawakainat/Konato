@@ -721,7 +721,7 @@ div .Fac_S {
 
 .btn_bg_S {
     color: #fff;
-    background-color: #004274;
+    background-color: #004274 !important;
 }
 
 .btn_bg_S:hover {
