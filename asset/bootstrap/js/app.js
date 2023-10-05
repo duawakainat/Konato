@@ -9,6 +9,16 @@ $(window).resize(function () {
         $('.navbar-nav').hide();
     }
 });
+$(window).resize(function () {
+    if ($(window).width() <= 998) {
+        $('.hidden_form').hide();
+    }
+});
+$(window).resize(function () {
+    if ($(window).width() <= 998) {
+        $('.btn_hidden').hide();
+    }
+});
 
 $(".BTN_TOP").click(function () {
     $("html, body").animate({
