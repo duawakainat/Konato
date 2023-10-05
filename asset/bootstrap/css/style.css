@@ -192,22 +192,22 @@ div>#navbarSupportedContent {
     }
 
     @media only screen and (min-width: 778px) and (max-width: 998px) {
-        width: 69%;
+        width: 73%;
         padding: 0 6px 90px 6px;
     }
 
-    @media only screen and (min-width: 578px) and (max-width: 778px) {
+    @media only screen and (min-width: 300px) and (max-width: 778px) {
         width: 75%;
         padding: 0 0px 90px 0px;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: auto !important;
+        margin-left: auto !important;
     }
 
+
     @media only screen and (min-width: 300px) and (max-width: 578px) {
-        width: 85%;
+        width: 90%;
         padding: 0 0px 90px 0px;
-        margin-right: auto;
-        margin-left: auto;
+        padding: 0 0px 0px 0px !important;
     }
 }
 
@@ -635,6 +635,10 @@ select::-ms-expand {
     border: 0;
 }
 
+.dropdown {
+    appearance: none;
+}
+
 .Font_w_S {
     font-size: 18px;
     font-weight: 400 !important;
@@ -715,8 +719,9 @@ div .Fac_S {
     text-decoration-color: #00A0EB;
 }
 
-.btn_bg_S ::before {
+.btn_bg_S {
     color: #fff;
+    background-color: #004274;
 }
 
 .btn_bg_S:hover {

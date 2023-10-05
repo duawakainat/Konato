@@ -36,41 +36,45 @@
 <body>
     <nav class="navbar navbar-expand-lg text-white p-0 m-0">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./asset/image/logo.png.webp" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="MainTop d-flex justify-content-between collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav col-4 mb-lg-0">
+                <ul class="navbar-nav col-5 mb-lg-0">
+                    <a class="navbar-brand mx-auto me-0 me-3 mt-2" href="#"><img src="./asset/image/logo.png.webp"
+                            alt=""></a>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link me-2 active text-white" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Property</a>
+                        <a class="nav-link me-2" href="#">Property</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item me-2">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item p-0 m-0">
+                    <li class="nav-item me-2">
                         <div class="dropdown bg-transparent">
-                            <a class="btn btn-secondary dropdown-toggle bg-transparent border-0 with_icon" href="#"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="true">Blog </a>
+                            <a class="btn btn-secondary bg-transparent border-0 with_icon" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="true">Blog </a>
                             <ul class="dropdown-menu border-0 mt-0 rounded-0">
                                 <li><a class="dropdown-item" href="./asset/page/blog.html">Blog</a></li>
                                 <li><a class="dropdown-item" href="#">ABlog Detail</a></li>
                                 <li><a class="dropdown-item" href="#">Elements</a></li>
                             </ul>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item me-2">
                         <a class="nav-link" href="./asset/page/contact.html">Contact</a>
                     </li>
                 </ul>
-                <form class="d-flex col-4" role="search">
-                    <p class="fw-semibold">Call Us: <span class="fw-semibold text-white fs-6">+10 (78) 356 3276</span>
+                <form class="d-flex col-4 p-0">
+                    <p class="" style="font-size: 18px;font-weight: 400 !important;margin-right: 26px;">Call Us: <span
+                            class="" style="font-size: 16px;font-weight: 400 !important;padding-bottom: 4px;">+10 (78)
+                            356 3276</span>
                     </p>
-                    <button class="btn btn_bg_S fw-semibold text-white rounded-1" type="submit">Sign in</button>
+                    <button type="button Font_8" class="btn text-white border-0 rounded-1 m-0"
+                        style="padding: 10px 30px !important;background-color: #00AEFF;">Sign in</button>
                 </form>
             </div>
         </div>
@@ -119,8 +123,8 @@
                     <option value="3">Rent4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
                 </select>
             </div>
-            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 ms-2 "> <select
-                    class="form-select with_icon rounded-1 d-flex justify-content-between text-center pe-2 ps-2"
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 ms-2 ">
+                <select class="form-select with_icon rounded-1 d-flex justify-content-between text-center pe-2 ps-2"
                     aria-label="Default select example">
                     <option selected>&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed</span> </option>
                     <option value="1">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed1</span> </option>
@@ -128,7 +132,30 @@
                     <option value="2">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed2</span> </option>
                     <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed2</span> </option>
                     <option value="3">&#xf236;&nbsp;&nbsp;&nbsp;&nbsp;<span class="font-duff">Bed4</span> </option>
-                </select></div>
+                </select>
+                <!-- <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"> Rent </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Rent1</a></li>
+                        <li><a class="dropdown-item" href="#">Rent2</a></li>
+                        <li><a class="dropdown-item" href="#">Rent3</a></li>
+                    </ul>
+                </div> -->
+                <!-- <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"> Rent </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item active" href="#">Rent1</a></li>
+                        <li><a class="dropdown-item" href="#">Rent2</a></li>
+                        <li><a class="dropdown-item" href="#">Rent3</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div> -->
+            </div>
             <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 p-m-0 ms-2"> <select
                     class="form-select rounded-1 with_icon text-center pe-2 ps-2" aria-label="Default select example">
                     <option selected>&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath</option>
@@ -137,9 +164,8 @@
                     <option value="3">&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath3</option>
                     <option value="3">&#xf2cd;&nbsp;&nbsp;&nbsp;&nbsp; Bath4</option>
                 </select> </div>
-            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2"> <button
-                    class="btn fw-medium btn-color text-white p-2 pe-3 ps-3 rounded-1 btn_bg_S border-0"
-                    type="submit">search</button>
+            <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 ms-2"> <button type="button Font_8"
+                    class="btn text-white border-0 rounded-1 btn_bg_S" style="padding: 10px 30px;">search</button>
             </div>
         </div>
     </div>
@@ -155,7 +181,8 @@
                         <p class="Para_L">Get started by choosing from one of our pre-built page templates to showcase
                             your properties </p>
                         <p class="LFont">$ 3,272</p>
-                        <button type="button" class="btn text-white trans_btn border-0 mb-5">View Property</button>
+                        <button type="button Font_8" class="btn text-white border-0 rounded-1 trans_btn"
+                            style="padding: 10px 30px;background-color: #00AEFF;">View Property</button>
                     </div>
                 </div>
             </div>
@@ -279,8 +306,8 @@
             <h2 class="Fac_S">Properties for Sale</h2>
         </div>
     </figure>
-    <div class="with_col_owl mx-auto">
-        <div class="owl-first owl-carousel owl-theme position-relative">
+    <div class="with_col_owl">
+        <div class="owl-first owl-carousel owl-theme position-relative p-0">
             <div class=" card w-100 Mar_auto p-m-0 rounded-0">
                 <img src="asset/image/items2.jpg.webp" class="card-img-top rounded-0 img_Hei" alt="...">
                 <div class="card-body padd-arr">
@@ -342,14 +369,14 @@
     <!-- owl -->
     <div class="container-fluid text-center BG_col">
         <div class="row justify-content-center align-items-center Mar_fix position-relative">
-            <div class="col-xl-3 col-lg-10">
+            <div class="col-xl-3 col-lg-10 col-md-8 col-sm-12">
                 <div class="text-start mb-3 Padd_L">
                     <div class="card-body">
                         <h2 class="Fac_S">Explore<br> by Property Type</h2>
                         <figcaption class="small_Get p-0 m-0"> Get started by choosing from one of our pre-built page
                             templates to showcase your properties </figcaption>
-                        <button type="button" class="btn btn-info pe-4 ps-4 p-2 text-white fs-6 mt-5 trans_btn">View All
-                            Property</button>
+                        <button type="button Font_8" class="btn text-white border-0 rounded-1 trans_btn"
+                            style="padding: 10px 30px;background-color: #00AEFF;">View All Property</button>
                     </div>
                 </div>
             </div>
