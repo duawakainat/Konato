@@ -255,6 +255,12 @@ div>#navbarSupportedContent {
     }
 }
 
+.LightH_5 {
+    font-size: 50px;
+    font-weight: 500 !important;
+    margin-bottom: 20px;
+}
+
 .padd_Iner {
     padding: 11px 20px;
 }
