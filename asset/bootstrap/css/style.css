@@ -144,8 +144,8 @@ div>#navbarSupportedContent {
 }
 
 .MainP1 {
-    left: 21%;
-    top: 24%;
+    left: 19%;
+    top: 26%;
 
     @media only screen and (min-width: 998px) and (max-width: 1260px) {
         left: 14%;
