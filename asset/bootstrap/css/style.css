@@ -147,8 +147,8 @@ div>#navbarSupportedContent {
     left: 19%;
     top: 26%;
 
-    @media only screen and (min-width: 998px) and (max-width: 1260px) {
-        left: 14%;
+    @media only screen and (min-width: 998px) and (max-width: 1360px) {
+        left: 8%;
         top: 15%;
     }
 
@@ -205,17 +205,46 @@ div>#navbarSupportedContent {
         padding: 0 6px 90px 6px;
     }
 
-    @media only screen and (min-width: 300px) and (max-width: 778px) {
+    @media only screen and (min-width: 300px) and (max-width: 578px) {
         width: 75%;
         padding: 0 0px 90px 0px;
         margin-right: auto !important;
         margin-left: auto !important;
     }
 
+    @media only screen and (min-width: 300px) and (max-width: 578px) {
+        width: 92%;
+        padding: 0 0px 0px 0px;
+        padding: 0 0px 0px 0px !important;
+    }
+}
+
+.with_owl {
+    width: 72%;
+    padding: 0 12px 90px 12px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media only screen and (min-width: 998px) and (max-width: 1260px) {
+        width: 82%;
+        padding: 0 12px 90px 12px;
+    }
+
+    @media only screen and (min-width: 778px) and (max-width: 998px) {
+        width: 63%;
+        padding: 0 6px 90px 6px;
+    }
 
     @media only screen and (min-width: 300px) and (max-width: 578px) {
-        width: 98%;
+        width: 75%;
         padding: 0 0px 90px 0px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 578px) {
+        width: 92%;
+        padding: 0 0px 0px 0px;
         padding: 0 0px 0px 0px !important;
     }
 }
@@ -426,7 +455,7 @@ div>#navbarSupportedContent {
     }
 
     @media only screen and (min-width:300px) and (max-width: 578px) {
-        padding: 20px 100px 50px 30px;
+        padding: 20px 20px 30px 30px;
     }
 }
 
@@ -506,7 +535,7 @@ div>#navbarSupportedContent {
 }
 
 .img_side {
-    margin-left: 60px;
+    margin-left: 120px;
 }
 
 .para_B {
@@ -627,7 +656,7 @@ select::-ms-expand {
 }
 
 .nav-show-hiden {
-    margin-top: -17px;
+    margin-top: -11px;
     background-color: #4a4747;
 }
 
@@ -654,6 +683,7 @@ select::-ms-expand {
 .Padd_F2 {
     margin-top: 39px;
     padding-bottom: 65px;
+    /* --bs-gutter-x: 0rem; */
 }
 
 /* .trans_btn::before {
@@ -772,7 +802,14 @@ div .Fac_S {
     }
 }
 
+
 .btn_bg_S:hover {
+    background-color: #004274;
+    color: #00AEFF;
+    border: 1px solid #00AEFF;
+}
+
+.btn_hov:hover {
     background-color: #004274;
     color: #00AEFF;
     border: 1px solid #00AEFF;
@@ -785,5 +822,3 @@ div .Fac_S {
 .small_F {
     margin-bottom: 15px;
 }
-
-.hover_under:hover {}

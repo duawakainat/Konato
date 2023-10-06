@@ -19,6 +19,11 @@ $(window).resize(function () {
         $('.btn_hidden').hide();
     }
 });
+$(window).resize(function () {
+    if ($(window).width() <= 998) {
+        $('.shidden_P').hide();
+    }
+});
 
 $(".BTN_TOP").click(function () {
     $("html, body").animate({
@@ -48,17 +53,18 @@ $(window).resize(function () {
 
     }
 });
-$(window).on('resize', function () {
-    if ($(window).width() >= 578) {
-        $('.Map_Hidden').show();
-        console.log('helo i not');
-    }
-});
+
 
 $(window).on('resize', function () {
     if ($(window).width() <= 578) {
         $('.Map_Hidden').hide();
         console.log('helo i maam');
+    }
+});
+$(window).on('resize', function () {
+    if ($(window).width() >= 578) {
+        $('.Map_Hidden').show();
+        console.log('helo i not');
     }
 });
 // $('#formGroupExampleInput').addClass('fa-solid fa-bed');
@@ -116,11 +122,11 @@ $('.owl-second').owlCarousel({
         300: {
             items: 1,
         },
-        578: {
+        408: {
             items: 2,
         },
         778: {
-            items: 3,
+            items: 2,
         },
         998: {
             items: 4,
