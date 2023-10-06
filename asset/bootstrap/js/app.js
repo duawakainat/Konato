@@ -82,11 +82,11 @@ $('.owl-first-one').owlCarousel({
         300: {
             items: 1,
         },
-        778: {
+        668: {
             items: 2,
         },
-        998: {
-            items: 2,
+        890: {
+            items: 3,
         },
         1100: {
             items: 3,
@@ -102,11 +102,11 @@ $('.owl-first').owlCarousel({
         300: {
             items: 1,
         },
-        778: {
+        668: {
             items: 2,
         },
-        998: {
-            items: 2,
+        890: {
+            items: 3,
         },
         1100: {
             items: 3,

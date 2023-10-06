@@ -148,8 +148,8 @@ div>#navbarSupportedContent {
     top: 26%;
 
     @media only screen and (min-width: 998px) and (max-width: 1360px) {
-        left: 8%;
-        top: 15%;
+        left: 15%;
+        top: 19%;
     }
 
     @media only screen and (min-width: 778px) and (max-width: 998px) {
@@ -157,12 +157,17 @@ div>#navbarSupportedContent {
         top: 10%;
     }
 
-    @media only screen and (min-width: 578px) and (max-width: 778px) {
-        left: 12%;
-        top: 12%;
+    @media only screen and (min-width: 688px) and (max-width: 778px) {
+        left: 6%;
+        top: 17%;
     }
 
-    @media only screen and (min-width: 300px) and (max-width: 578px) {
+    @media only screen and (min-width: 488px) and (max-width: 688px) {
+        left: 9%;
+        top: 10%;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 488px) {
         left: 2%;
         top: 10%;
     }
@@ -195,25 +200,32 @@ div>#navbarSupportedContent {
     margin-right: auto;
     margin-left: auto;
 
-    @media only screen and (min-width: 998px) and (max-width: 1260px) {
-        width: 82%;
+    @media only screen and (min-width: 890px) and (max-width: 1260px) {
+        width: 95%;
         padding: 0 12px 90px 12px;
     }
 
-    @media only screen and (min-width: 778px) and (max-width: 998px) {
+    /* @media only screen and (min-width: 890px) and (max-width: 998px) {
         width: 73%;
         padding: 0 6px 90px 6px;
+    } */
+
+    @media only screen and (min-width: 668px) and (max-width: 890px) {
+        width: 84%;
+        padding: 0 0px 90px 0px;
+        margin-right: auto !important;
+        margin-left: auto !important;
     }
 
-    @media only screen and (min-width: 300px) and (max-width: 578px) {
-        width: 75%;
+    @media only screen and (min-width: 578px) and (max-width: 668) {
+        width: 69%;
         padding: 0 0px 90px 0px;
         margin-right: auto !important;
         margin-left: auto !important;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 578px) {
-        width: 92%;
+        width: 95%;
         padding: 0 0px 0px 0px;
         padding: 0 0px 0px 0px !important;
     }
@@ -249,40 +261,40 @@ div>#navbarSupportedContent {
     }
 }
 
-.owl-first-one,
+/* .owl-first-one,
 .owl-second,
 .owl-first,
 .owl-next {
     position: absolute;
-    right: -28px;
+    right: -14px;
     font-size: 50px;
     top: 40%;
     color: #c9d6e1;
     font-weight: bolder;
 
-    /* font: inherit; */
-    @media only screen and (min-width: 300px) and (max-width: 778px) {
-        display: none;
-        right: 0px;
-    }
+@media only screen and (min-width: 300px) and (max-width: 6614px) {
+    display: none;
+    right: 0px;
+}
 }
 
-.owl-first-one,
+*/
+/* .owl-first-one,
 .owl-second,
 .owl-first,
 .owl-prev {
     position: absolute;
-    left: -28px;
+    left: -14px;
     font-size: 50px;
     top: 40%;
     font-weight: bolder;
     color: #c9d6e1;
 
-    @media only screen and (min-width: 300px) and (max-width: 778px) {
+    @media only screen and (min-width: 300px) and (max-width: 668px) {
         display: none;
         left: 0px;
     }
-}
+} */
 
 .LightH_5 {
     font-size: 50px;
@@ -744,7 +756,7 @@ div .Fac_S {
 }
 
 .small_para {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300 !important;
     margin-bottom: 15px;
     line-height: 28px;
@@ -767,6 +779,10 @@ div .Fac_S {
 
 .PADD_T {
     padding-top: 100px;
+
+    @media only screen and (min-width:300px) and (max-width: 578px) {
+        padding-top: 70px;
+    }
 }
 
 .hei_Fix {
