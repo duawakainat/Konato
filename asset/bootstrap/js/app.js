@@ -21,7 +21,7 @@ $(window).resize(function () {
 });
 $(window).resize(function () {
     if ($(window).width() <= 998) {
-        $('.shidden_P').hide();
+        $('.hidden_P').hide();
     }
 });
 
