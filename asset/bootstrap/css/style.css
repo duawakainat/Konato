@@ -483,12 +483,32 @@ div>#navbarSupportedContent {
 }
 
 .Hea_S {
-    font-size: 23px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600 !important;
+}
+
+.padd_man {
+    padding: 60px 30px 35px 35px;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
 .Para_S {
-    font-size: 14.5px;
-    color: #777476;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #545454;
+
+}
+
+.Para_Sha {
+    /* box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3); */
+    font-size: 14px;
+}
+
+.para_B {
+    font-size: 14px;
+    font-weight: 300 !important;
+    padding-bottom: 12px;
 }
 
 .wipo_S {
